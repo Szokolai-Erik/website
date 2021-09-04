@@ -4,14 +4,101 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="main.css">
   <title>Szokolai Erik</title>
 </head>
 <body>
-  <div class="container">
-    <h4>Szokolai Erik</h4>
-    <p>Illessz be egy rövid bemutatkozást</p>
-    <img src="szokolaierik.jpg" alt="keprolam">
-</div>
+  <section>
+    </section>
+    <div class="text-container">
+			<p>Szia,</p>
+		    <p>Erik vagyok</p>
+			<p>Webes felhasználói felületeket tervezek & fejlesztek</p><br>
+			<a href="Szokolai Erik webdev cv.pdf" download><button class="down-cv">Önéletrajz</button></a>
+		</div>
+    <div class="about-container">
+      <!--img-->
+        <img src="szokolaierik.jpg"/>
+      <!--about-me-text-->
+        <div class="about-text">
+        <p>Röviden magamról</p>
+        <p>Devolper & Designer</p>
+        <p>Nem szeretem az eddigi munkáim alapján megítélni önmagam, inkább azok a projektek által, amiket csinálni szeretnék a jövőben. A készségek elsajátíthatóak, a személyiség fejleszthető. Szeretek érdekes dolgokat alkotni, melyek értékkel bírnak a világ számára. </p>
+        <p>A front end fejlesztésben van jelenleg a legnagyobb tapasztalatom, de nagy szenvedély és érdeklődés fűz a webdesign világához is. Ne habozz kapcsolatba lépni velem, ha bármilyen ötleted van, vagy éppen szükséged lenne egy igényes, reszponzív honlapra: ÉN SEGÍTHETEK EBBEN. .</p>
+        <!--<button>Alkalmazz</button>
+        <button>Önéletrajz</button>-->
+        </div>
+      </div>
+      <!--services-container---------------------------->
+	<div class="services ">
+		<!--text-->
+		<div class="services-text ">
+	<p>Tapasztalat</p>
+	<p>Programnyelvek és keretrendszerek</p>
+	<p>A front end fejlesztésben van jelenleg a legnagyobb tapasztalatom, de nagy szenvedély és érdeklődés fűz a webdesign világához is. Munkáimat szeretem dinamikusnak és reszponzívnak tervezni, hogy eleget tegyenek mind a technikai, mind pedig a szemantikai és funkcionalitási követelményeknek.</p>
+			</div>
+		<div class="box-container">
+		<!--1------------->
+			<div class="box-1">
+			<span>1</span>
+			<p class="heading">HTML5</p>
+			<p class="details">A HTML5 adja a weboldal úgymond vázát, azaz a szerkezeti felépítését. A fő feladata a vizuális tartalom megjelenítése / megformázása a felhasználó részére.</p>
+			<button>Read More</button>
+			</div>
+	   <!--2------------->
+			<div class="box-2">
+			<span>2</span>
+			<p class="heading">CSS3</p>
+			<p class="details">A már elkészült szerkezetnek a CSS3 néven ismert programnyelv segítségével tudunk stílust adni, olyanná "varázsolni", amilyennek az oldalunkat látni szeretnénk. </p>
+			<button>Read More</button>
+			</div>
+		<!--3------------->
+			<div class="box-3">
+			<span>3</span>
+			<p class="heading">Javascript</p>
+			<p class="details">Mikor már van szerkezete és stílusa is az oldalunknak, a javascript programozási nyelv segítségével a weboldal interaktívvá válik a felhasználó számára.</p>
+			<button>Read More</button>
+			</div>
+		</div>
+	</div>
+  <!--if you have any project in your mind contact me-->
+	<div class="contact-me">
+		<p>Van bármilyen ötleted? Szívesen segítek megvalósítani!</p>
+		<button>Kapcsolat</button>
+	</div>
+  <!--footer--------------->
+ <footer>
+  <!--heading-->
+ <p>Projektjeim</p>
+  <!--paragraph-->
+  <p>Projektjeim szekció. Átdolgozás alatt</p>
+  <!--social-->
+ <div class="social-icons">
+ <a href="https://szokolai-erik.github.io/Jaegers/"><i class="fab fa-facebook-f"></i></a>
+ <!--<a href="https://www.linkedin.com/in/erik-szokolai-55547721a/"><i class="fa fa-linkedin-square"></i></a>-->
+ <a href="#"><i class="fab fa-instagram"></i></a>
+ </div>
+  <!--copyright-->
+  <p class="copyright">Copyright by </p>
+</footer>
+ <!--social-attach-bar-->
+ <div class="social">
+ <a href="https://www.facebook.com/profile.php?id=100072386550788"><i class="fab fa-facebook-f"></i></a>
+ <a href="https://twitter.com/szokolai_webdev"><i class="fab fa-twitter"></i></a>
+ <a href="https://www.instagram.com/szokolaierik/"><i class="fab fa-instagram"></i></a>
+ <a href="https://www.linkedin.com/in/erik-szokolai-55547721a/"><i class="fa fa-linkedin-square"></i></a>
+ <!--<a href="#"><i class="fab fa-youtube"></i></a>-->
+ </div>
+ <!--JQUery-------------------->
+<script type="text/javascript" src="js/JQuery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.toggle').click(function(){
+    $('.toggle').toggleClass('active')
+    $('nav').toggleClass('active')
+  })
+})
+</script>
 </body>
 </html>
