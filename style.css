@@ -203,8 +203,8 @@ a:hover {
 @media (min-width: 768px) {
   .btn {
     top: 5%;
-    left: 85%;
-    width: 10%;
+  left: 85%;
+  width: 10%;
   }
 }
 
