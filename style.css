@@ -110,6 +110,7 @@ a:hover {
   /*margin-right: 1.6rem;*/
 }
 
+
 @media (min-width: 768px) {
 
   .hero-text {
@@ -120,9 +121,15 @@ a:hover {
 
   .hero-text h1 {
     font-size: 7rem;
-    margin-left: 1rem;
+    /*margin-left: 1rem;*/
   }
 
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  .hero-text h1 {
+    font-size: 4rem;
+  }
 }
 
 .tagline {
@@ -136,9 +143,15 @@ a:hover {
   .tagline {
     text-transform: uppercase;
     font-size: 2rem;
-    margin-left: 3rem;
+    /*margin-left: 3rem;*/
   }
 
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  .tagline {
+    font-size: 1rem;
+  }
 }
 
 .tagline::after {
@@ -162,9 +175,14 @@ a:hover {
   .date {
     text-transform: uppercase;
     font-size: 2rem;
-    margin-left: 2.5rem;
+    /*margin-left: 2.5rem;*/
   }
+}
 
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  .date {
+    font-size: 1rem;
+  }
 }
 
 .date::before,
@@ -176,6 +194,13 @@ a:hover {
   width: 1.5rem;
   vertical-align: middle;
   margin: 0 .5rem;
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  .date::before,
+  .date::after {
+    width: 2rem;
+  }
 }
 
 .btn {
@@ -193,7 +218,7 @@ a:hover {
   white-space: nowrap;
   vertical-align: middle;
   color: #fff;
-  top: 90%;
+  top: 85%;
   left: 30%;
   width: 40%;
   background-color: #d9534f;
@@ -207,6 +232,16 @@ a:hover {
   width: 10%;
   }
 }
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  .btn {
+    top: 5%;
+  left: 85%;
+  width: 10%;
+  font-size: 1rem;
+  }
+}
+
 
 /*.lang {
   bottom: 2rem;
@@ -368,7 +403,7 @@ a:hover {
   margin-bottom: 1.5rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
 
   .question-group {
     display: inline-block;
@@ -386,6 +421,14 @@ a:hover {
     text-align: left;
   }
 
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  .profile {
+    border-radius: 50%;
+    max-width: 40%;
+    max-height: 40%;
+  }
 }
 
 .social-icons a{
